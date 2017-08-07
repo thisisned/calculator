@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  background-color: #c4c5ff;
+}
+
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;   
+  -ms-user-select: none;    
+  -o-user-select: none;
+  user-select: none;
+}
+
+#calc {
+  border-radius: 15px;
+  margin: 40px auto;
+  padding: 10px;
+  height: 440px;
+  width: 280px;
+  background-color: #666;
+}
+
+#display, #log {
+  background-color: #c3c2ab;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 40px;
+  margin:  15px 15px 0px 15px;
+  padding: 0 5px;
+  text-align: right;
+  font-size: 1.5em;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#log {
+  height: 35px;
+  line-height: 20px;
+  margin: 10px 15px;
+  font-size: 0.8em;
+  color: #444;
+}
+
+.row {
+  text-align: center;
+}
+
+.button {
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  border: 1px solid #aaa;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #999;
+}
+
+#AC, #C {
+  background-color: #bc2f2f;
+  color: white;
+}
+
+.dummy {
+  visibility: hidden;
+}
+
+.op-button {
+  background-color: #898bff;
+}
+
+.op-active {
+  background-color: #3236ff;
+  color: white;
+}
+
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #444;
+}
+
+a {
+  color: #444;
+}
