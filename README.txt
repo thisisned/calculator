@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/thisisned/pen/JyRjQK.
-
- 
+An online calculator made as part of FreeCodeCamp's front-end project. Using HTML / CSS / Javascript / jQuery. Viewable online [here](https://thisisned.github.io/calculator/). 
