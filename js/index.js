@@ -77,6 +77,7 @@ $("#C").click(function(){
   $("#display").html("0");
   log.pop();
   newnum = true;
+  op_time = false;
 })
 
 function getAnswer(op, first, second){
